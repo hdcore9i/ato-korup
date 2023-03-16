@@ -1,4 +1,3 @@
----
 name: "pre-release"
 
 on:
@@ -22,4 +21,4 @@ jobs:
           prerelease: true
           title: "Development Build"
           files: |
-            *.zip
+            p/bin/Release/net6.0/linux-x64/publish/*.zip
